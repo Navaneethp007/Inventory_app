@@ -6,7 +6,7 @@ import AppNavigator from './src/navigation/AppNavigator';
 export default function App() {
   return (
     <InventoryProvider>
-      <StatusBar style="" />
+      <StatusBar style="auto" />
       <AppNavigator />
     </InventoryProvider>
   );

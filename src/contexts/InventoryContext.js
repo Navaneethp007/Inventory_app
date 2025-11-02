@@ -35,12 +35,10 @@ export const InventoryProvider = ({ children }) => {
       
       if (storedProducts) {
         const parsed = JSON.parse(storedProducts);
-        console.log("Loaded products:", parsed);
         setProducts(parsed);
       }
       if (storedCategories) {
         const parsedCategories = JSON.parse(storedCategories);
-        console.log("Loaded categories:", parsedCategories);
         setCategories(parsedCategories);
       }
     } catch (error) {
